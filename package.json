@@ -1,0 +1,28 @@
+{
+  "name": "eventlens-real",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Uyai",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch ./index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "@types/cors": "^2.8.19",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
